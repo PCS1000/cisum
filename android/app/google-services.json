@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "379255969544",
+    "firebase_url": "https://cisum-4cd6f.firebaseio.com",
+    "project_id": "cisum-4cd6f",
+    "storage_bucket": "cisum-4cd6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379255969544:android:88c32f66833751c20e3ebd",
+        "android_client_info": {
+          "package_name": "com.cisum.cisum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379255969544-p4ktcicd3m35n08c28l0hjrren9br7d9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cisum.cisum",
+            "certificate_hash": "acae56389cfdcdb7e6216c3fac2bff3ecba033ea"
+          }
+        },
+        {
+          "client_id": "379255969544-raasjed7v4ples6ila9eakalciep7evu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB2HQ3zY88y4xDxKPfNzIZ8IrMTxZ1LiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379255969544-raasjed7v4ples6ila9eakalciep7evu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
