@@ -1,10 +1,6 @@
-import 'dart:async';
 import 'package:cisum/custom_icons/custom_icons_icons.dart';
-import 'package:cisum/home/home.dart';
 import 'package:cisum/home/player.dart';
 import 'package:cisum/models/user_model.dart';
-import 'package:cisum/presentation/presentation_screen.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

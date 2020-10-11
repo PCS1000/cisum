@@ -1,16 +1,8 @@
-import 'dart:async';
 import 'dart:io';
-import 'package:cisum/custom_icons/custom_icons_icons.dart';
-import 'package:cisum/models/user_model.dart';
-import 'package:cisum/presentation/presentation_screen.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_animation_progress_bar/flutter_animation_progress_bar.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:flutter_document_picker/flutter_document_picker.dart';
 import 'package:audioplayer2/audioplayer2.dart';
 
