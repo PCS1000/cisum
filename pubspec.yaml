@@ -27,7 +27,7 @@ dependencies:
   firebase_core: ^0.4.5
   firebase_auth: ^0.16.1
   scoped_model: ^1.0.1
-  flutter_svg: ^0.17.4
+  flutter_svg: ^0.18.0
   firebase_storage: ^3.0.0
   image_picker: ^0.5.4+3
   flutter_animation_progress_bar: ^1.0.0
