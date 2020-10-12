@@ -3,7 +3,6 @@ import 'package:cisum/root/auth.dart';
 import 'package:cisum/root/root_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 
 class PresentationScreen extends StatefulWidget {
   @override
