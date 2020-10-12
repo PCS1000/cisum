@@ -1,6 +1,4 @@
-import 'package:cisum/presentation/presentation_screen.dart';
-import 'package:cisum/root/auth.dart';
-import 'package:cisum/root/root_page.dart';
+import 'package:cisum/home/player.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:scoped_model/scoped_model.dart';
@@ -41,14 +39,8 @@ class MyApp extends StatelessWidget {
           cursorColor: _otherAlternativeColor,//OUTRA COR ALTERNATIVA
         ),
         debugShowCheckedModeBanner: false,
-        home: PresentationScreen(),
+        home: Player(),
       ),
     );
   }
 }
-
-
-
-
-
-

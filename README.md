@@ -1,6 +1,7 @@
-# cisum
+# CISUM 💿
 
-A new  application.
+### App to test design tricks
+<img src="./images/other/Screenshot_20201012-145303.png" width="200" />
 
 ## Getting Started
 

@@ -1,4 +1,3 @@
-import 'dart:io';
 import 'package:cisum/home/player_dark.dart';
 import 'package:cisum/home/player_white.dart';
 import 'package:flutter/cupertino.dart';
@@ -17,7 +16,7 @@ class _PlayerState extends State<Player> {
   @override
   void initState() {
     super.initState();
-    if(widget.bgColor == Color(0xFFEAEBF3)){
+    if (widget.bgColor == Color(0xFFEAEBF3)) {
       controller = PageController(initialPage: 2);
     } else {
       controller = PageController();
@@ -30,23 +29,19 @@ class _PlayerState extends State<Player> {
     super.dispose();
   }
 
-
   @override
   Widget build(BuildContext context) {
-
     return PageView(
       controller: controller,
       physics: NeverScrollableScrollPhysics(),
       children: <Widget>[
-        PlayerDark(controller: controller,),
-        PlayerWhite(controller: controller,),
+        PlayerDark(
+          controller: controller,
+        ),
+        PlayerWhite(
+          controller: controller,
+        ),
       ],
     );
   }
 }
-
-
-
-
-
-
