@@ -303,7 +303,7 @@ class _PlayerWhiteState extends State<PlayerWhite> {
               child: GestureDetector(
                 onTap: () {
                   widget.controller.previousPage(
-                      duration: Duration(milliseconds: 700),
+                      duration: Duration(microseconds: 1),
                       curve: Curves.ease);
                 },
                 child: _buttonPlayer(

@@ -312,7 +312,7 @@ class _PlayerDarkState extends State<PlayerDark> {
               child: GestureDetector(
                 onTap: () {
                   widget.controller.nextPage(
-                      duration: Duration(milliseconds: 700),
+                      duration: Duration(microseconds: 1),
                       curve: Curves.ease);
                 },
                 child: _buttonPlayer(
